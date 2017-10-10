@@ -1,6 +1,7 @@
-![Alt text](http://www.robotix.in/img/sprites/logo.png)
-AugHit : Augmented Image Processing Event
-=========================================
+# AugHit : Augmented Image Processing Event
+
+![Robotix Logo](https://www.robotix.in/img/sprites/logo.png)
+
 This repository contains code for the simulator for the event AugHit conducted during Robotix 2015, Kshitij at IIT Kharagpur. (http://www.robotix.in/aughit)
 
 The simulator has been built using OpenCV on C++ with Box2D Wrapper for Physics and simulations.
@@ -22,7 +23,7 @@ $ make
 ```
 You will find all the required binaries in the **'build'** folder.
 
-##Round 1:
+## Round 1:
 
 - Simple round with fixed number of static bricks.
 
@@ -40,16 +41,15 @@ $ ./Round1Rectangular 1
 
 Where 1 is the **Camera Index**. By default it is 0.
 
+![](/Files/Images/Screenshots/Round1Circular.png)
 
-![Alt text](/Files/Images/Screenshots/Round1Circular.png)
-
-####<u>Round 1 : Semi-Circular Paddle</u>
+### Round 1 : Semi-Circular Paddle</u>
 
 ![Alt text](/Files/Images/Screenshots/Round1Rectangular.png)
 
-####<u>Round 1 : Rectangular Paddle</u>
+### Round 1 : Rectangular Paddle</u>
 
-##Round 2
+## Round 2
 
 - Has false bricks whose ID's can be passed as command-line arguments to the binary.
 
@@ -66,16 +66,16 @@ $ ./Round2Rectangular 0 3 5 7
 ```
 - Here, as before, 0 is the **Camera Index**. (3, 5, 7) are the ID's of the bricks to be declared as false.
 
-![Alt text](/Files/Images/Screenshots/Round2Circular.png)
+![](/Files/Images/Screenshots/Round2Circular.png)
 
-####<u>Round 2 : Semi-Circular Paddle</u>
+### Round 2 : Semi-Circular Paddle</u>
 
 ![Alt text](/Files/Images/Screenshots/Round2Rectangular.png)
 
-####<u>Round 2 : Rectangular Paddle</u>
+### Round 2 : Rectangular Paddle</u>
 
 
-##Round 3
+## Round 3
 
 - Has moving bricks also.
 
@@ -90,15 +90,16 @@ $ ./Round3Circular 0 3 5 7
 ```sh
 $ ./Round3Rectangular 0 3 5 7
 ```
-![Alt text](/Files/Images/Screenshots/Round3Circular1.png)
+![](/Files/Images/Screenshots/Round3Circular1.png)
 
-####<u>Round 3 : Semi-Circular Paddle<u>
+### Round 3 : Semi-Circular Paddle<u>
 
-![Alt text](/Files/Images/Screenshots/Round3Rectangular1.png)
+![](/Files/Images/Screenshots/Round3Rectangular1.png)
 
-####<u>Round 3 : Rectangular Paddle</u>
+### Round 3 : Rectangular Paddle</u>
 
 ## Miscellaneous
+
 - The dimensions of the game, scaling factor, number of static bricks, number of moving bricks, number of corners, size of the corners are all defined in the *Constants.h* file. Change accordingly to tweak the game!
 
 - Use **ClearVid.sh** to clear the video buffer: (Usage Below)
